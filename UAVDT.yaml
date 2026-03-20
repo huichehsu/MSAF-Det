@@ -1,0 +1,9 @@
+path:  # dataset root dir
+train: UAVDT/UAVDT-train/images  # train images (relative to 'path')  6471 images
+val: UAVDT/UAVDT-test/images  # val images (relative to 'path')  548 images
+test: UAVDT/UAVDT-test/images  # test images (optional)  1610 images
+
+# Classes
+# Classes
+nc: 3  # number of classes
+names: ['car', 'truck', 'bus']
